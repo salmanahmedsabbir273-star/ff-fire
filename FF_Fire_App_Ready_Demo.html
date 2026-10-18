@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+<title>FF Fire — XEB TOUR</title>
+<style>
+:root{--bg:#07111f;--panel:#101e31;--panel2:#142943;--blue:#168cff;--cyan:#42d8ff;--text:#f4f8ff;--muted:#9eb1c9;--gold:#ffc857;--line:#263b55}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at top,#102d4d 0,#07111f 44%,#050a12 100%);color:var(--text);font-family:system-ui,-apple-system,"Noto Sans Bengali",sans-serif}button,input,select{font:inherit}button{cursor:pointer;border:0}.app{max-width:480px;margin:auto;min-height:100vh;padding-bottom:78px}.top{padding:22px 18px 16px;background:linear-gradient(135deg,#102b4a,#081321);border-bottom:1px solid var(--line);position:relative;overflow:hidden}.top:after{content:"";position:absolute;width:180px;height:180px;border:25px solid #168cff18;border-radius:50%;right:-60px;top:-70px}.brand{display:flex;align-items:center;gap:12px;position:relative;z-index:1}.logo{width:48px;height:48px;border-radius:15px;background:linear-gradient(135deg,var(--blue),#064078);display:grid;place-items:center;font-size:22px;font-weight:900;box-shadow:0 8px 24px #168cff40}.brand h1{margin:0;font-size:22px;letter-spacing:1px}.brand small{color:var(--cyan);font-size:10px;letter-spacing:2px}.welcome{margin-top:22px;position:relative;z-index:1}.welcome h2{font-size:25px;line-height:1.25;margin:0 0 7px}.welcome p{color:var(--muted);font-size:13px;margin:0}.hero{margin:16px;padding:19px;border-radius:20px;background:linear-gradient(120deg,#124b81,#087fe1 65%,#20b7f2);box-shadow:0 12px 32px #008cff25}.hero .tag{font-size:10px;font-weight:800;letter-spacing:1.5px;color:#d8f3ff}.hero h2{font-size:23px;margin:7px 0}.hero p{font-size:12px;margin:0 0 14px;color:#e5f5ff}.btn{background:var(--cyan);color:#031322;padding:11px 15px;border-radius:11px;font-weight:800}.btn.secondary{background:#1c3450;color:#dcecff;border:1px solid #34516f}.btn.gold{background:var(--gold)}.section{padding:0 16px;margin-top:20px}.sectionhead{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}.sectionhead h3{font-size:17px;margin:0}.sectionhead span{font-size:11px;color:var(--cyan)}.chips{display:flex;gap:8px;overflow:auto;padding-bottom:4px}.chip{white-space:nowrap;background:#102139;border:1px solid var(--line);color:#c9d9ed;border-radius:20px;padding:8px 13px;font-size:12px}.chip.active{background:#168cff;color:white;border-color:#168cff}.match{background:linear-gradient(145deg,#12243a,#0d1929);border:1px solid var(--line);border-radius:17px;padding:15px;margin-bottom:12px}.matchtop{display:flex;justify-content:space-between;gap:10px;align-items:start}.mode{font-size:10px;letter-spacing:1px;color:var(--cyan);font-weight:800}.match h4{margin:5px 0;font-size:17px}.status{font-size:10px;border-radius:20px;padding:5px 8px;background:#143c2e;color:#75f0b4}.status.live{background:#4b1b28;color:#ff8fa3}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:7px;margin:13px 0}.stat{background:#091522;border-radius:10px;padding:9px}.stat small{display:block;color:var(--muted);font-size:10px}.stat b{display:block;font-size:13px;margin-top:4px}.matchfoot{display:flex;justify-content:space-between;align-items:center;gap:8px}.fee{font-size:12px;color:var(--muted)}.fee b{color:var(--gold);font-size:15px}.empty{color:var(--muted);font-size:13px;text-align:center;padding:25px}.page{display:none}.page.active{display:block}.bottom{position:fixed;bottom:0;left:50%;transform:translateX(-50%);width:min(480px,100%);display:grid;grid-template-columns:repeat(5,1fr);background:#081321f5;backdrop-filter:blur(12px);border-top:1px solid var(--line);padding:9px 5px calc(9px + env(safe-area-inset-bottom));z-index:5}.nav{background:none;color:#8298b3;font-size:10px;padding:5px 0}.nav strong{display:block;font-size:19px;margin-bottom:2px}.nav.active{color:var(--cyan)}.panel{margin:16px;background:#101e31;border:1px solid var(--line);border-radius:17px;padding:16px}.panel h3{margin:0 0 13px}.field{margin-bottom:12px}.field label{display:block;color:var(--muted);font-size:12px;margin-bottom:6px}.field input,.field select{width:100%;background:#071321;border:1px solid #2a415d;color:white;border-radius:10px;padding:12px;outline:none}.row{display:grid;grid-template-columns:1fr 1fr;gap:10px}.wide{width:100%}.note{font-size:12px;line-height:1.6;color:var(--muted)}.profilehead{display:flex;align-items:center;gap:13px}.avatar{width:58px;height:58px;border-radius:50%;display:grid;place-items:center;background:linear-gradient(135deg,#168cff,#42d8ff);font-size:24px;font-weight:900}.toast{position:fixed;left:50%;bottom:88px;transform:translateX(-50%);background:#e8f6ff;color:#07111f;padding:12px 16px;border-radius:12px;font-size:13px;font-weight:700;display:none;z-index:10;max-width:90%;box-shadow:0 8px 30px #0008}.smalltitle{font-size:12px;color:var(--muted);margin:0 0 8px}.adminbadge{font-size:10px;color:var(--gold);border:1px solid #755a27;padding:4px 7px;border-radius:7px}
+</style>
+</head>
+<body>
+<div class="app">
+<header class="top">
+ <div class="brand"><div class="logo">FF</div><div><h1>FF FIRE</h1><small>TOURNAMENT ARENA</small></div><div style="margin-left:auto" class="adminbadge">XEB TOUR STYLE</div></div>
+ <div class="welcome"><h2>জিততে হলে, খেলতে হবে! 🔥</h2><p>Free Fire custom room tournament hub</p></div>
+</header>
+<div id="home" class="page active">
+ <div class="hero"><div class="tag">⚡ DAILY CUSTOM MATCH</div><h2>তোমার স্কোয়াড প্রস্তুত তো?</h2><p>ম্যাচ বেছে নাও, নিয়ম দেখো এবং টুর্নামেন্টে যোগ দাও।</p><button class="btn" onclick="go('matches')">ম্যাচ দেখুন →</button></div>
+ <div class="section"><div class="sectionhead"><h3>ম্যাচ ক্যাটাগরি</h3><span>SELECT MODE</span></div><div class="chips"><button class="chip active" onclick="filterMode('All',this)">সব ম্যাচ</button><button class="chip" onclick="filterMode('Solo',this)">Solo</button><button class="chip" onclick="filterMode('Duo',this)">Duo</button><button class="chip" onclick="filterMode('Squad',this)">Squad</button></div></div>
+ <div class="section"><div class="sectionhead"><h3>আসন্ন ম্যাচ</h3><span onclick="go('matches')">সব দেখুন</span></div><div id="homeMatches"></div></div>
+ <div class="panel"><h3>📢 গুরুত্বপূর্ণ নোটিশ</h3><p class="note">এটি বর্তমানে একটি ডেমো অ্যাপ। ম্যাচের সময়, Room ID/Password এবং পুরস্কারের তথ্য অ্যাডমিন নিশ্চিত করবে। কোনো পেমেন্ট করার আগে আয়োজকের তথ্য যাচাই করুন।</p></div>
+</div>
+<div id="matches" class="page">
+ <div class="section" style="margin-top:22px"><div class="sectionhead"><h3>সব টুর্নামেন্ট</h3><span id="matchCount"></span></div><div class="chips" style="margin-bottom:13px"><button class="chip active" onclick="filterMode('All',this)">সব</button><button class="chip" onclick="filterMode('Solo',this)">Solo</button><button class="chip" onclick="filterMode('Duo',this)">Duo</button><button class="chip" onclick="filterMode('Squad',this)">Squad</button></div><div id="allMatches"></div></div>
+</div>
+<div id="live" class="page">
+ <div class="section" style="margin-top:22px"><div class="sectionhead"><h3>Live / My Matches</h3><span>ROOM INFO</span></div><div id="joinedMatches"></div><p class="note">রুমের তথ্য প্রকাশিত হলে এখানে দেখা যাবে। এই ডেমোতে যোগ দেওয়ার তথ্য শুধু এই সেশনে রাখা হয়।</p></div>
+</div>
+<div id="profile" class="page">
+ <div class="panel" style="margin-top:22px"><div class="profilehead"><div class="avatar">S</div><div><h3 style="margin:0">Player Profile</h3><p class="note" style="margin:4px 0 0">তোমার গেমিং তথ্য</p></div></div><div class="field" style="margin-top:18px"><label>Player Name</label><input id="playerName" placeholder="তোমার নাম লিখুন"></div><div class="field"><label>Free Fire UID</label><input id="playerUid" placeholder="তোমার UID লিখুন" inputmode="numeric"></div><button class="btn wide" onclick="saveProfile()">প্রোফাইল সেভ করুন</button><p class="note" style="margin-top:12px">এটি ডেমো প্রোফাইল; সার্ভারে সংরক্ষণ হয় না।</p></div>
+ <div class="panel"><h3>💳 পেমেন্ট নির্দেশনা</h3><p class="note">Entry fee থাকলে অ্যাডমিনের যাচাইকৃত bKash/Nagad নম্বর ও পেমেন্টের নিয়ম নিশ্চিত করে নিন। এই ডেমোতে কোনো টাকা নেওয়া বা পাঠানো হয় না।</p></div>
+</div>
+<div id="admin" class="page">
+ <div class="panel" style="margin-top:22px"><div class="sectionhead"><h3>Admin Demo</h3><span>LOCAL ONLY</span></div><p class="note">এখানে তৈরি ম্যাচ এই ব্রাউজারের ডেমোতে যোগ হবে। এটি নিরাপদ লগইন বা অনলাইন ডাটাবেস নয়।</p>
+ <div class="field"><label>ম্যাচের নাম</label><input id="newTitle" placeholder="যেমন: Night Battle"></div>
+ <div class="row"><div class="field"><label>Mode</label><select id="newMode"><option>Solo</option><option>Duo</option><option>Squad</option></select></div><div class="field"><label>Entry Fee (৳)</label><input id="newFee" type="number" min="0" value="20"></div></div>
+ <div class="row"><div class="field"><label>Prize Pool (৳)</label><input id="newPrize" type="number" min="0" value="500"></div><div class="field"><label>সময়</label><input id="newTime" placeholder="আজ রাত ৯:০০"></div></div>
+ <button class="btn wide" onclick="createMatch()">+ ম্যাচ তৈরি করুন</button>
+ </div>
+ <div class="panel"><h3>পরবর্তী ধাপ</h3><p class="note">আসল APK, অ্যাডমিন লগইন, অনলাইন ডাটাবেস, পেমেন্ট যাচাই, নিরাপত্তা ও Room ID প্রকাশের জন্য আলাদা backend এবং build করা লাগবে। এই HTML ফাইলটি Android ফোনের ব্রাউজারে চলে।</p></div>
+</div>
+<nav class="bottom">
+ <button class="nav active" onclick="go('home',this)"><strong>⌂</strong>হোম</button>
+ <button class="nav" onclick="go('matches',this)"><strong>⚔</strong>ম্যাচ</button>
+ <button class="nav" onclick="go('live',this)"><strong>◉</strong>আমার ম্যাচ</button>
+ <button class="nav" onclick="go('profile',this)"><strong>♙</strong>প্রোফাইল</button>
+ <button class="nav" onclick="go('admin',this)"><strong>⚙</strong>অ্যাডমিন</button>
+</nav>
+<div id="toast" class="toast"></div>
+</div>
+<script>
+let matches=[
+{id:1,title:"Daily Solo Clash",mode:"Solo",fee:10,prize:150,time:"আজ রাত ৮:০০",status:"Upcoming",joined:false},
+{id:2,title:"Duo Night Battle",mode:"Duo",fee:20,prize:300,time:"আজ রাত ৯:০০",status:"Upcoming",joined:false},
+{id:3,title:"Squad Championship",mode:"Squad",fee:40,prize:1000,time:"আগামীকাল বিকাল ৫:০০",status:"Upcoming",joined:false}
+];let activeFilter="All";
+function go(id,btn){document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));document.getElementById(id).classList.add('active');document.querySelectorAll('.nav').forEach(n=>n.classList.remove('active'));if(btn)btn.classList.add('active');else{let navs=[...document.querySelectorAll('.nav')];let idx=['home','matches','live','profile','admin'].indexOf(id);if(navs[idx])navs[idx].classList.add('active')}render()}
+function toast(s){let t=document.getElementById('toast');t.textContent=s;t.style.display='block';setTimeout(()=>t.style.display='none',2500)}
+function card(m){return `<div class="match"><div class="matchtop"><div><div class="mode">${m.mode.toUpperCase()} MATCH</div><h4>${esc(m.title)}</h4><div class="note">🕒 ${esc(m.time||'সময় জানানো হবে')}</div></div><span class="status ${m.status==='Live'?'live':''}">${m.status}</span></div><div class="stats"><div class="stat"><small>প্রাইজ পুল</small><b>৳${m.prize}</b></div><div class="stat"><small>এন্ট্রি ফি</small><b>৳${m.fee}</b></div><div class="stat"><small>মোড</small><b>${m.mode}</b></div></div><div class="matchfoot"><span class="fee">🎮 Custom Room</span><button class="btn ${m.joined?'secondary':''}" onclick="joinMatch(${m.id})">${m.joined?'Joined ✓':'Join Match'}</button></div></div>`}
+function esc(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+function filtered(){return matches.filter(m=>activeFilter==='All'||m.mode===activeFilter)}
+function render(){let list=filtered();document.getElementById('homeMatches').innerHTML=list.slice(0,2).map(card).join('')||'<div class="empty">এখন কোনো ম্যাচ নেই</div>';document.getElementById('allMatches').innerHTML=list.map(card).join('')||'<div class="empty">এই ক্যাটাগরিতে ম্যাচ নেই</div>';document.getElementById('matchCount').textContent=list.length+' MATCHES';let joined=matches.filter(m=>m.joined);document.getElementById('joinedMatches').innerHTML=joined.map(card).join('')||'<div class="empty">এখনও কোনো ম্যাচে যোগ দেননি। ম্যাচ ট্যাব থেকে Join Match চাপুন।</div>'}
+function filterMode(mode,el){activeFilter=mode;document.querySelectorAll('.chip').forEach(c=>c.classList.remove('active'));if(el)el.classList.add('active');render()}
+function joinMatch(id){let m=matches.find(x=>x.id===id);if(!m)return;if(m.joined){toast('আপনি ইতিমধ্যে এই ম্যাচে যোগ দিয়েছেন।');return}if(!confirm(m.title+' ম্যাচে যোগ দিতে চান? Entry fee: ৳'+m.fee+'. এটি ডেমো—কোনো টাকা কাটা হবে না।'))return;m.joined=true;render();toast('ডেমোতে ম্যাচে যোগ হয়েছে!')}
+function saveProfile(){let n=document.getElementById('playerName').value.trim(),u=document.getElementById('playerUid').value.trim();if(!n||!u){toast('নাম ও UID—দুটিই লিখুন।');return}toast('ডেমোতে প্রোফাইল গ্রহণ করা হয়েছে।')}
+function createMatch(){let title=document.getElementById('newTitle').value.trim();if(!title){toast('ম্যাচের নাম লিখুন।');return}let fee=Math.max(0,Number(document.getElementById('newFee').value)||0),prize=Math.max(0,Number(document.getElementById('newPrize').value)||0);matches.unshift({id:Date.now(),title,mode:document.getElementById('newMode').value,fee,prize,time:document.getElementById('newTime').value.trim()||'সময় জানানো হবে',status:'Upcoming',joined:false});document.getElementById('newTitle').value='';render();toast('ডেমো ম্যাচ তৈরি হয়েছে!');go('matches')}
+render();
+</script>
+</body></html>
